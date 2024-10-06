@@ -13,16 +13,21 @@ const Header = () => {
   }, []);
 
   return (
-    <div className='headerbox'>
-      <div>
-        <Link href="/" className="headerboxLink">
-            <span className="">Graph CMS</span>
-        </Link>
+    <div>
+      <div className='headerbox'>
+        <div style={{paddingLeft: "10px", fontWeight: "bold"}}>
+          <Link href="/" className="headerboxLink">
+              <span >Farming Spirit</span>
+          </Link>
+        </div>
+        <div className="">
+            {categories.map((category, index) => (
+              <Link className="headerboxLink headerboxLink2" key={index} href={`/category/${category.slug}`}><span className="">{category.name}</span></Link>
+            ))}
+        </div>
       </div>
-      <div className="">
-          {categories.map((category, index) => (
-             <Link className="headerboxLink headerboxLink2" key={index} href={`/category/${category.slug}`}><span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">{category.name}</span></Link>
-           ))}
+      <div className='bgc'>
+        <h1 style={{fontWeight: "bold", color: "green", textAlign: "center", paddingTop: "250px"}}>FARMING SPIRIT</h1>
       </div>
     </div>
   );

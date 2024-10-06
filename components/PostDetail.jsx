@@ -46,8 +46,8 @@ const PostDetail = ({ post }) => {
   return (    
       <div className='singleDetail'>
         <div>
-          <div className='authorImage'>
-            <div className='authorImage2'><img alt={post.author.name} src={post.author.photo.url} /></div>
+          <div className='authorImage' style={{paddingTop: "10px"}}>
+            <div className='authorImage2' style={{paddingRight: "10px"}}><img alt={post.author.name} src={post.author.photo.url} /></div>
             <span className='authorName' style={{color: "blue", paddingRight: "12px"}}>
               {post.author.name}
             </span>
