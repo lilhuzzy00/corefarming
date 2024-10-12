@@ -1,8 +1,26 @@
 import React from 'react';
-
 import moment from 'moment';
+import Head from "next/head";
 
 const PostDetail = ({ post }) => {
+  const head = () => (
+    <Head>
+      <title>FARMING SPIRIT</title>
+      <meta name="description" content={post.content.raw} />
+      <meta
+        property="og:description"
+        content="Together we can make farming practices easy"
+      />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="FARMING SPIRIT" />
+      <meta
+        property="og:url"
+        content={`https://farmingspirit.com.ng/post/${post.slug}`}
+      />
+      {/* <meta property="og:image:secure_url" content={imageSource(post)} /> */}
+    </Head>
+  );
+
   const getContentFragment = (index, text, obj, type) => {
     let modifiedText = text;
 
@@ -43,7 +61,9 @@ const PostDetail = ({ post }) => {
     }
   };
 
-  return (    
+  return ( 
+    <>
+      {head()}   
       <div className='singleDetail'>
         <div>
           <div className='authorImage' style={{paddingTop: "10px"}}>
@@ -74,6 +94,7 @@ const PostDetail = ({ post }) => {
         </div>
         
       </div>
+    </>
   );
 };
 

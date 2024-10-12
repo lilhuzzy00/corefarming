@@ -29,6 +29,7 @@ const PostWidget = ({ categories, slug }) => {
               <div key={index} className='postWidget2'>
                     <div>
                       <img
+                        loader={grpahCMSImageLoader}
                         alt={post.title}
                         className="postWidgetImage"
                         src={post.featuredImage.url}

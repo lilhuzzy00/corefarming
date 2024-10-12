@@ -128,6 +128,7 @@ body {
   padding-right: 40px;
   padding-left: 40px;
   text-align: justify; 
+  padding-bottom: 10px;
 }
 
 .postWidget {
@@ -159,15 +160,18 @@ hr {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
+  background-color: antiquewhite;
+  padding-bottom: 40px;
+  z-index: 0;
 }
 
 .headerbox .headerboxLink {
   text-decoration: none;
-  color: rgb(155, 155, 155);
+  color: black;
 }
 
 .headerboxLink:hover {
-  color: black;
+  color: rgb(4, 161, 114);
 }
 
 .headerbox .headerboxLink2 {
@@ -176,10 +180,12 @@ hr {
 }
 
 .bgc {
-  background: url("/images/everything.png");
+  background: url("/images/everything.jpg");
   background-size: cover;
   background-position: fixed;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 450px;
   margin-bottom: 20px;
+  margin-top: -25px;
+  padding-top: 0;
 }
