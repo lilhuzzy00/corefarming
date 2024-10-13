@@ -27,7 +27,7 @@ const Header = () => {
         </div>
       </div>
       <div className='bgc'>
-        <h1 style={{fontWeight: "bold",  color: "brown", textAlign: "center", paddingTop: "250px", fontSize: "1px"}}>FARMING SPIRIT</h1>
+        <h1 style={{fontWeight: "bold",  color: "brown", textAlign: "center", paddingTop: "250px"}}>FARMING SPIRIT</h1>
       </div>
     </div>
   );
