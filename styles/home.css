@@ -172,23 +172,6 @@ hr {
   z-index: 0;
 }
 
-@media (max-width: 692px){
-  /* .bgc {
-    display: none;
-  } */
-  /* .headerboxLink2 {
-    display: none;
-
-  }
-  .headerbox {
-    background-color: white;
-  }
-  .headerboxLink {
-    font-size: 25px;
-    font-weight: bold;
-  } */
-}
-
 
 .headerbox .headerboxLink {
   text-decoration: none;
