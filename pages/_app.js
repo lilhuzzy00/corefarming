@@ -3,7 +3,7 @@ import '../styles/globals.scss';
 import '../styles/home.css';
 import { Layout } from '../components';
 
-export const dynamic = "auto";
+export const dynamic = "force-dynamic";
 
 function MyApp({ Component, pageProps }) {
   return (
