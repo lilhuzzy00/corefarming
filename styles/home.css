@@ -131,6 +131,11 @@ body {
   text-align: justify; 
   padding-bottom: 10px;
 }
+ .postDetailContent img {
+  width: 100%;
+  height: auto;
+  
+ }
 
 .postWidget {
   display: flex;
