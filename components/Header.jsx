@@ -26,7 +26,7 @@ const Header = () => {
             ))}
         </div>
       </div>
-      <div className='bg'>
+      <div>
         <div className='bgc'>
           Farming Spirit
         </div>
