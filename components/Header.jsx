@@ -26,8 +26,10 @@ const Header = () => {
             ))}
         </div>
       </div>
-      <div className='bgc'>
-        <h1 style={{fontWeight: "bold",  color: "brown", textAlign: "center", paddingTop: "250px"}}>FARMING SPIRIT</h1>
+      <div className='bg'>
+        <div className='bgc'>
+          Farming Spirit
+        </div>
       </div>
     </div>
   );

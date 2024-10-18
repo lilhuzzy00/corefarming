@@ -3,7 +3,7 @@ import '../styles/globals.scss';
 import '../styles/home.css';
 import { Layout } from '../components';
 
-export const revalidate = 1;
+// export const revalidate = 1;
 
 function MyApp({ Component, pageProps }) {
   return (

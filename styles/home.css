@@ -173,10 +173,10 @@ hr {
 }
 
 @media (max-width: 692px){
-  .bgc {
+  /* .bgc {
     display: none;
-  }
-  .headerboxLink2 {
+  } */
+  /* .headerboxLink2 {
     display: none;
 
   }
@@ -186,7 +186,7 @@ hr {
   .headerboxLink {
     font-size: 25px;
     font-weight: bold;
-  }
+  } */
 }
 
 
@@ -213,28 +213,6 @@ hr {
   margin-bottom: 20px;
   margin-top: -25px;
   padding-top: 0;
+  text-align: center;
+  font-size: 0.2px;
 }
-
-/* @media only screen and (min-width: 768px) {
-  .bgc {
-    background: url("/images/everything.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 450px;
-    margin-bottom: 20px;
-    margin-top: -25px;
-    padding-top: 0;
-  }
-
-  .headerbox {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding-top: 10px;
-    background-color: antiquewhite;
-    padding-bottom: 40px;
-    z-index: 0;
-  }
-  
-} */
