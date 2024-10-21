@@ -136,13 +136,10 @@ body {
     margin-right: auto;
     width: 100%;
     height: auto;
-    border-radius: 20px;
+    /* border-radius: 20px; */
   }
   
   .postDetailContent{
-    /* padding-right: 5px;
-    padding-left: 5px; */
-    text-align: justify; 
     padding-bottom: 10px;
   }
   .postDetailTitle {
