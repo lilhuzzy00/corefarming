@@ -10,12 +10,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {process.env.NODE_ENV === "production" && (
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3265665575364691"
-                    crossorigin="anonymous">
-            </script>
-          )}
-          
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3265665575364691"
+            crossorigin="anonymous">
+          </script>
           <meta name="google-site-verification" content="7BTSPvjOkvW48t21X6VE-DZWdtmx6cCcz52p00CoX6I" />
           <meta name="viewport" content="width=device-width,minimum-scale=1, initial-scale=1" />
         </Head>
